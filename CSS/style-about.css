@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    position: relative;
+    background-color: #343a40;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+#head {
+    position: absolute;
+    top: 20px;
+    left: 550px;
+    font-size: 40px;
+    color: rgb(238, 32, 118);
+}
+
+hr {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    border: none;
+    border-top: 1px solid rgb(73, 72, 72);
+}
+
+h2 {
+    position: absolute;
+    top: 130px;
+    right: 530px;
+    color: white;
+}
+
+#p1, #p2, #p3 {
+    position: absolute;
+    color: white;
+    right: 80px;
+    width: 40%;
+    font-family: sans-serif;
+}
+#p1 {
+    top: 180px;
+}
+#p2 {
+    top: 410px;
+}
+#p3 {
+    top: 480px;
+}
+
+#bg-img {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 50%;
+    height: 85.5%;
+    background-image: url(../images/gallary-6.jpg);
+    background-size: cover;
+    
+}

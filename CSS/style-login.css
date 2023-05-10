@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/bg2.jpg);
+    
+}
+#parent {
+    width: 400px;
+    height: 80%;
+    padding: 20px auto;
+    margin: 100px auto;
+    background-color: lightgray;
+    opacity: 0.9;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.inp {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: none;
+}
+
+#checkbox {
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+p{
+    text-align: left;
+    margin-left: 50px;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#login {
+    background-color: rgb(142, 147, 151);
+}

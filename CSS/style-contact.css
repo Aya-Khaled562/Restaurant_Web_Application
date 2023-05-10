@@ -1,0 +1,55 @@
+body {
+    background-image: url(../images/bg2.jpg);
+}
+.parent {
+    width: 50%;
+    height: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 5px solid #767c7e;
+    background-color: lightgray;
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: 15px 15px 1px #212224;
+}
+
+h1 {
+    color: #3c3e3f;
+    padding-left: 5px;
+    font-size: 50px;
+}
+
+table {
+    width: 100%;
+    margin-left: 10%;
+}
+
+td {
+    width: 50%;
+    padding: 5px;
+    margin-left: 10px;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #676e6e ;
+    box-shadow: 5px 5px 1px #212122;
+    background-color: #929597;
+}
+#message {
+    width: 83%;
+    padding: 50px;
+}
+
+#submit {
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 30%;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+#submit:hover {
+    color: rgb(238, 32, 118) ;
+    box-shadow: 6px 6px 2px #2f2f31;
+}
